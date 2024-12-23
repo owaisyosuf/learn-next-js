@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
       <div>
-        <nav className="flex justify-between items-center py-4">
+        <nav className=" bg-gray-500 text-white flex justify-end p-4 gap-x-6 ">
           <Link href="/">Home</Link>
           <br />
           <Link href="/contact">contact</Link>
